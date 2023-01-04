@@ -1,0 +1,76 @@
+body
+{
+    width:1290px;
+    height:640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right,rgb(59, 167, 231), rgb(192, 48, 247) );
+    font-family: 'Lato', sans-serif;
+    user-select: none;
+}
+.cform
+{
+    border-top: 15px;
+    margin-left:-20px;
+    margin-top:-20px;
+    width: 385px;
+    border-radius:10px;
+    height: 550px;
+    background-color:white !important;
+    box-shadow: 1px 1px 5px rgb(37, 44, 119);
+}
+h1
+{
+    height: 60px;
+    margin-left: 40.23%;
+}
+input[type="radio"]:first-of-type
+{
+    margin-left: 30.23%;
+}
+input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: rgb(196, 189, 189) 1px solid;
+    outline: none;
+    margin-left: 45px;
+    width: 75%;
+    height: 30px;
+    margin-bottom:20px;
+
+}
+.ooo
+{
+    margin-left: 45px;
+    font-size:67%;
+    
+}
+input[type="submit"]
+{
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 75%;
+    height: 35px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, rgb(5, 214, 223), rgb(246, 4, 254));
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+footer
+{
+    margin-top: 110px;
+    color:darkgray
+}
+#id1
+{
+    margin-left: 90px;
+}
+#id2
+{
+    margin-left: 155px;
+}

@@ -1,0 +1,65 @@
+body
+{
+    width:1290px;
+    height:640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right,rgb(137, 123, 235), rgb(74, 86, 221) );
+    font-family: 'Lato', sans-serif;
+}
+.cform
+{
+    margin-left:-20px;
+    margin-top:-20px;
+    width: 325px;
+    border-radius:10px;
+    height: 325px;
+    background-color:white !important;
+    background-image: linear-gradient(top, rgb(101, 68, 155), rgb(101, 68, 155) 16%, transparent 16%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(101, 68, 155), rgb(101, 68, 155) 16%, transparent 16%, transparent 100%);
+    box-shadow: 1px 1px 5px rgb(37, 44, 119);
+}
+.a
+{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 6px;
+    color: white;
+}
+input[type=text]
+{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+    margin-left: 25px;
+    padding-bottom:8px;
+    box-sizing: border-box;
+    width:260px;
+}
+
+input[type=submit]
+{
+    width: 120px;
+    height:35px;
+    margin-left: 175px;
+    border-radius: 5px;
+    background-color: rgb(101, 68, 155);
+    border: none;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+label
+{
+    color: purple;
+    margin-left: 25px;
+    font-size:66%;;
+    font-weight: bold;
+}
+input::placeholder
+{
+    color: rgb(101, 68, 155);
+    border-top: 3px;
+}
